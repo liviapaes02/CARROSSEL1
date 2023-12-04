@@ -1,0 +1,38 @@
+.container{
+    background-color: blueviolet;
+    max-width: 1000px;
+    height: auto;
+    padding: 20px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.container > div{
+    flex: 1 0 150px;
+    margin: 0 10px;
+}
+
+.galery {
+    width: 914px;
+    height: 205px;
+    background-color: blue;
+    overflow: hidden;
+    margin-left: 14%;
+}
+
+.galery .fotos {
+    width: 1000%;
+    animation-name: animacao;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 300px;
+    
+}
